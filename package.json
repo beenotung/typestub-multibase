@@ -1,0 +1,35 @@
+{
+  "name": "typestub-multibase",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write index.d.ts",
+    "postformat": "tslint -p . --fix",
+    "test": "tsc index.d.ts"
+  },
+  "keywords": [
+    "typestub",
+    "typescript",
+    "multibase"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "multibase": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "prettier": "^1.13.7",
+    "tslint": "^5.10.0",
+    "tslint-eslint-rules": "^5.2.0",
+    "typescript": "^2.8.3"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "description": "typestub of multibase"
+}
