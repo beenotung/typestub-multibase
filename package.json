@@ -18,11 +18,14 @@
     "multibase": "^0.4.0"
   },
   "devDependencies": {
-    "@types/node": "^10.5.2",
+    "@types/node": "^8.0.0",
     "prettier": "^1.13.7",
     "tslint": "^5.10.0",
     "tslint-eslint-rules": "^5.2.0",
     "typescript": "^2.8.3"
+  },
+  "peerDependencies": {
+    "@types/node": "^8.0.0"
   },
   "description": "typestub of multibase",
   "repository": {
