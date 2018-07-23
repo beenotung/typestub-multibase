@@ -6,9 +6,7 @@ declare namespace multibase {
     buf: Buffer | string
   ): Buffer;
 
-  export function decode(
-    bufOrString: Buffer | string
-  ): { base: string; data: Buffer };
+  export function decode(bufOrString: Buffer | string): Buffer;
 
   export function isEncoded(bufOrString: Buffer | string): string | false;
 }
