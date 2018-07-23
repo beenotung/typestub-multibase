@@ -2,6 +2,7 @@
   "name": "typestub-multibase",
   "version": "0.0.4",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "format": "prettier --write index.d.ts",
     "postformat": "tslint -p . --fix",
